@@ -1,33 +1,68 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/proyectos">Proyectos</router-link>|
-      <router-link to="/contacto">Contacto</router-link> |
+    <div id="nav" class="nes-container is-rounded is-dark">
+      <router-link to="/">Inicio</router-link>| 
+      <router-link to="/about">Sobre mí</router-link>| 
+      <router-link to="/proyectos">Proyectos</router-link>| 
+      <router-link to="/contacto">Contacto</router-link>|
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
-
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  #app {
+    /* font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
+  -moz-osx-font-smoothing: grayscale; */
+    text-align: center;
+    color: white;
+  }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  * {
+    background-color:black;
+  }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  #nav {
+    padding: 30px;
+    margin: 2%;
+  }
+
+  #nav a {
+    font-weight: bold;
+    color:#c4bac3;
+  }
+
+  #nav a.router-link-exact-active {
+    color: #423383;
+  }
+
+  /* Esto es para poner el fondo negro en las vistas  */
+  #app {
+    background-color:black;
+    height: 100vh;
+  }
+
+  .is-dark{
+    background-color: black;
+  }
+
+
+
+  html,
+  body,
+  pre,
+  code,
+  kbd,
+  samp {
+    font-family: "Press Start 2P";
+  }
+
+  body {
+    background-color: black;
+  }
+
+  .container{
+    background-color: black;
+  }
+
 </style>
