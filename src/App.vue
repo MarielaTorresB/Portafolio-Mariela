@@ -1,14 +1,16 @@
 <template>
   <div id="app">
     <div id="nav" class="nes-container is-rounded is-dark">
-      <router-link to="/">Inicio</router-link>| 
-      <router-link to="/about">Sobre mí</router-link>| 
-      <router-link to="/proyectos">Proyectos</router-link>| 
-      <router-link to="/contacto">Contacto</router-link>|
+      <router-link class="link" to="/">Inicio</router-link>|
+      <router-link class="link" to="/about">Sobre mí</router-link>|
+      <router-link class="link" to="/skills">Habilidades</router-link>|
+      <router-link class="link" to="/proyectos">Proyectos</router-link>|
+      <router-link class="link" to="/contacto">Contacto</router-link>
     </div>
     <router-view />
   </div>
 </template>
+
 <style>
   #app {
     /* font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -19,7 +21,7 @@
   }
 
   * {
-    background-color:black;
+    background-color: black;
   }
 
   #nav {
@@ -29,7 +31,7 @@
 
   #nav a {
     font-weight: bold;
-    color:#c4bac3;
+    color: #c4bac3;
   }
 
   #nav a.router-link-exact-active {
@@ -38,11 +40,11 @@
 
   /* Esto es para poner el fondo negro en las vistas  */
   #app {
-    background-color:black;
+    background-color: black;
     height: 100vh;
   }
 
-  .is-dark{
+  .is-dark {
     background-color: black;
   }
 
@@ -61,8 +63,13 @@
     background-color: black;
   }
 
-  .container{
+  .container {
     background-color: black;
+  }
+
+  .link:hover {
+    text-decoration: none;
+
   }
 
 </style>
