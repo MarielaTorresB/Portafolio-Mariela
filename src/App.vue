@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav" class="nes-container is-rounded is-dark">
-      <router-link class="link" to="/">Inicio</router-link>|
+      <router-link class="link" to="/">Inicio </router-link>|
       <router-link class="link" to="/about">Sobre mí</router-link>|
       <router-link class="link" to="/skills">Habilidades</router-link>|
       <router-link class="link" to="/proyectos">Proyectos</router-link>|

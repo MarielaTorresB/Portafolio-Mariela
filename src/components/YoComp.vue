@@ -12,4 +12,21 @@ export default {
 
 </script>
 
+<style scoped>
+.yo{
+  background-color: black;
+  width: 50vw;
+}
+.title{
+  background-color: black;
+}
+
+.nes-container.is-dark.with-title > .title{
+  background-color: black;
+}
+
+.nes-container.is-dark{
+  background-color: black;
+}
+</style>
 
