@@ -122,12 +122,13 @@
     width: 30%;
     top:5rem;
     border:5px solid coral;
+    margin-left: 2.5rem;
     /* width:100%; */
 }
 
-.nes-container > :last-child{
+/* .nes-container > :last-child{
   margin-left: 2.5rem;
-}
+} */
 
 
 </style>
