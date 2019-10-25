@@ -7,7 +7,7 @@
       <router-link class="link" to="/proyectos">Proyectos</router-link>|
       <router-link class="link" to="/contacto">Contacto</router-link>
     </div>
-    <router-view />
+    <router-view class="vistas" />
   </div>
 </template>
 
@@ -27,6 +27,7 @@
   #nav {
     padding: 30px;
     margin: 2%;
+    background-color: black;
   }
 
   #nav a {
@@ -41,7 +42,7 @@
   /* Esto es para poner el fondo negro en las vistas  */
   #app {
     background-color: black;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .is-dark {
@@ -72,4 +73,7 @@
 
   }
 
+  .vistas {
+    padding: 1rem;
+  }
 </style>

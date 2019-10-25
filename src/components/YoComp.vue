@@ -13,9 +13,9 @@ export default {
 </script>
 
 <style scoped>
+
 .yo{
   background-color: black;
-  width: 50vw;
 }
 .title{
   background-color: black;

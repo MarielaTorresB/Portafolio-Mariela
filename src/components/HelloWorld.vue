@@ -1,13 +1,16 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2> Front- End Developer</h2>
+    <h4> Front-End Developer</h4>
     <router-link class="link" to="/about">
       <label>
         <input type="radio" class="nes-radio is-dark" name="answer-dark" checked/>
         <span class="link"> PRESS START </span>
       </label>
     </router-link>
+    <footer>
+      <p>©2019 MarielaTorresB</p>
+    </footer>
   </div>
 </template>
 
@@ -24,21 +27,17 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   h3 {
-    margin: 40px 0 0;
+    margin: 1rem 0;
   }
 
-  ul {
-    list-style-type: none;
+  footer{
+    margin: 2rem 0 0 0;
     padding: 0;
   }
 
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    color: #42b983;
+  p{
+    margin:0;
+    padding:0;
   }
 
   .link {
