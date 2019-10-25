@@ -25,7 +25,7 @@
         src="https://user-image.githubusercontent.com/5305599/49061716-da649680-f254-11e8-9a89-d95a7407ec6a.png">
       <div class="card-body">
         <h5 class="card-title">Sacbé</h5>
-        <p class="card-text">Sacbé una Red Social para el ciclista que busca mantenerse conectado, crear vínculos con otros ciclistas, mantenerse informado de eventos, rodadas, bloqueos, inundaciones, baches, etc. Es una SPA creada con JS, CSS, HTML y Firebase.</p>
+        <p class="card-text">Sacbé es una Red Social para el ciclista que busca mantenerse conectado, crear vínculos con otros ciclistas, mantenerse informado de eventos, rodadas, bloqueos, inundaciones, baches, etc. Es una SPA creada con JS, CSS, HTML y Firebase.</p>
         <a href="https://github.com/MarielaTorresB/MEX008-social-network"  target="_blank" class="nes-btn is-primary">Ver en Github</a>
         <a href="https://marielatorresb.github.io/MEX008-social-network/src/"  target="_blank" class="nes-btn is-success">Demo</a>
       </div>
