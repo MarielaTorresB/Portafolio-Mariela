@@ -1,11 +1,16 @@
 <template>
   <div id="app">
     <div id="nav" class="nes-container is-rounded is-dark">
-      <router-link class="link" to="/">Inicio </router-link>|
-      <router-link class="link" to="/about">Sobre mí</router-link>|
-      <router-link class="link" to="/skills">Habilidades</router-link>|
-      <router-link class="link" to="/proyectos">Proyectos</router-link>|
-      <router-link class="link" to="/contacto">Contacto</router-link>
+      <div class="logo-container" >
+        <i class="snes-jp-logo" @click="toggleMenu()"></i>
+      </div>
+      <div :class="{hidden: isHidden}" class="dropdown-content" >
+        <router-link class="link" to="/">Inicio </router-link>|
+        <router-link class="link" to="/about">Sobre mí</router-link>|
+        <router-link class="link" to="/skills">Habilidades</router-link>|
+        <router-link class="link" to="/proyectos">Proyectos</router-link>|
+        <router-link class="link" to="/contacto">Contacto</router-link> 
+      </div>
     </div>
     <router-view class="vistas" />
   </div>
@@ -76,4 +81,72 @@
   .vistas {
     padding: 1rem;
   }
+
+  /*Clase hidden: clase oculta*/
+.hidden{
+    display: none;
+}
+
+/*Estilo de la navbar*/
+.navbar{
+    padding: 1em;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+/*Contenedor del logo de hamburguesa*/
+.logo-container{
+    order:0;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left:0.5em;
+    top:0.5em;
+}
+
+/*Estilo de los links del menú*/
+.navbar.link {
+    display:block;
+    /* color:black; */
+    text-decoration: none;
+    position:relative;
+    font-size: 17px;
+    padding: 3em;
+    
+}
+
+.dropdown-content{
+    order:2;
+    width: 30%;
+    top:5rem;
+    border:5px solid coral;
+    /* width:100%; */
+}
+
+.nes-container > :last-child{
+  margin-left: 2.5rem;
+}
+
+
 </style>
+
+
+
+<script>
+export default {
+  name: "app",
+  data(){
+  return{
+    isHidden:true,
+  }
+  },
+  methods:{
+    toggleMenu(){
+      this.isHidden= !this.isHidden;
+      return this.isHidden
+    }
+  }
+}
+</script>
