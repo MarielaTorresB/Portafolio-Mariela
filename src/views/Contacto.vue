@@ -2,7 +2,7 @@
   <div class="contacto">
       <div class="dato"><a href="https://github.com/MarielaTorresB" target="_blank"><i class="nes-icon github is-medium"></i>Mariela Torres</a></div>
       <div class="dato"><i class="nes-icon gmail is-medium"></i><p> marielatorres<br>@protonmail.com</p></div>
-      <div class="dato"><a href="www.linkedin.com/in/marielatorresb" target="_blank"><i class="nes-icon linkedin is-medium"></i>Mariela Torres</a></div>
+      <div class="dato"><a href="https://www.linkedin.com/in/marielatorresb/" target="_blank"><i class="nes-icon linkedin is-medium"></i>Mariela Torres</a></div>
   </div>
 </template>
 

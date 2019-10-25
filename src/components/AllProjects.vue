@@ -4,7 +4,7 @@
       <img class="card-img-top"
         src="https://user-image.githubusercontent.com/5305599/49061716-da649680-f254-11e8-9a89-d95a7407ec6a.png">
       <div class="card-body">
-        <h2 class="card-title">MaskedPass</h2>
+        <h5 class="card-title">MaskedPass</h5>
         <p class="card-text">MaskedPass es una aplicación web que permite cifrar y descifrar tus contraseñas por medio de cifrado césar. Construida con JS, HTML y CSS...</p>
         <a href="https://github.com/MarielaTorresB/MEX-008-Cipher" target="_blank" class="nes-btn is-primary">Ver en Github</a>
         <a href="https://marielatorresb.github.io/MEX-008-Cipher/src/"  target="_blank" class="nes-btn is-success">Demo</a>
