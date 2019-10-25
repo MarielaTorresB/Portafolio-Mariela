@@ -2,76 +2,91 @@
   <div class="nes-container is-dark with-title is-centered">
     <p class="title">Soft Skills</p>
     <div class="badge-container">
-      <div class="each-badge">      
-        <a href="#" class="nes-badge">
-        <span class="is-dark">Metodología Agile</span>
-        </a>
+      <div class="badge red">
+        <p class="red">Metodología Agile</p>
       </div>
-     <div style="clear: both"></div>
-      <div class="each-badge"> 
-      <a href="#" class="nes-badge">
-        <span class="is-primary">Autoaprendizaje</span>
-      </a>
+      <div class="badge pink">
+        <p class="pink">Autoaprendizaje</p>
       </div>
-      <div style="clear: both"></div>
-      <div class="each-badge">
-      <a href="#" class="nes-badge">
-        <span class="is-success">Trabajo en equipo</span>
-      </a>
+      <div class="badge orange">
+        <p class="orange">Trabajo en equipo</p>
       </div>
-      <div style="clear: both"></div>
-      <div class="each-badge">
-      <a href="#" class="nes-badge">
-        <span class="is-warning">Adaptabilidad</span>
-      </a>
+      <div class="badge yellow">
+        <p class="yellow">Adaptabilidad</p>
       </div>
-      <div style="clear: both"></div>
-      <div class="each-badge">
-      <a href="#" class="nes-badge">
-        <span class="is-error">Solución de problemas</span>
-      </a>
-      <
-      <div style="clear: both"></div>
+      <div class="badge green">
+        <p class="green">Solución de problemas</p>
+      </div>
+      <div class="badge blue">
+        <p class="blue">Autogestión</p>
+      </div>
+      <div class="badge coral">
+        <p class="coral">Trabajo en equipo</p>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-span {
-  border: 5px dotted yellow;
-  display: block;
-}
-
-.nes-badge {
-  border: 5px solid green;
-  margin:0 5 rem;
-}
-
-/*Haciendo que el badge se adapte al texto*/
-.nes-badge span.is-primary:first-child,
-.nes-badge span.is-error:first-child,
-.nes-badge span.is-dark:first-child,
-.nes-badge span.is-success:first-child,
-.nes-badge span.is-warning:first-child {
-  width: initial;
-}
 
 .badge-container {
-  background-color: bisque;
   display: flex;
   flex-flow: row wrap;
-  border:   thick solid #000;
-  overflow: auto;
+  justify-content: space-around;
+  align-items:center;
+  margin: 0;
 }
 
 .nes-container {
-  padding: 0.5rem 0.1rem;
-  width: 100%;
-  height: 100%;
+  padding: 0.5rem 1rem;
 }
 
-.each-badge{
-  margin: 0 1rem;
+.badge{
+  padding: 0.5rem 1rem;
+  margin:0.3rem;
+  text-align: center;
+  text-justify: 
+}
+
+.badge p{
+  margin:0;
+}
+
+.nes-container.is-dark{
+  background-color: black;
+  
+}
+
+.nes-container.is-dark.with-title > .title{
+  background-color: black;
+}
+
+.red{
+  background-color:#e21a20; 
+}
+
+.blue{
+  background-color: #209cee ;
+}
+
+.yellow{
+  background-color: #f7d51d;
+}
+
+.green{
+  background-color: #92cc41 ;
+}
+
+.coral{
+  background-color: #e76e55;
+}
+
+.pink{
+  background-color: #f199b1;
+}
+
+.orange{
+  background-color: #fd8014;
 }
 
 </style>

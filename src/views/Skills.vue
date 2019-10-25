@@ -1,8 +1,9 @@
 <template>
   <div class="skills">
     <Avatar></Avatar>
-    <SoftSkills></SoftSkills>
+    <p> x 1</p>
     <TechSkills></TechSkills>
+    <SoftSkills></SoftSkills>
   </div>
 </template>
 
@@ -24,65 +25,17 @@ export default {
 <style scoped>
 .skills{
   display: flex;
-  flex-flow: column wrap;
-  border: 5px dotted yellow;
-  /* height: 100vh; */
+  flex-flow: column;
+  /* border: 5px dotted yellow; */
   justify-content:space-around;
-  align-content: space-around;
 }
-
-/* aside{
-  width: 40vw;
-  height: 50vh;
-  order: 0;
-} */
 
 .nes-container.is-dark{
-  background-color: black;
-  
+  margin: 2rem 0;
 }
 
-.nes-container.is-dark.with-title > .title{
-  background-color: black;
+Avatar{
+  width: 80vh;
+  height: 80vh;
 }
-
-aside p{
-  text-align:start;
-   /* border:5px solid blue; */
-  display: flex;
-  justify-content: space-between;
-}
-
-.nes-badge{
-  margin: 1em;
-}
-
-a span {
-  display:block;
-}
-
-
-
-table{
-  border: 5px solid black;
-}
-
-table p {
-  white-space: nowrap;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-img{
-  /* float: left; */
-  border: 5px solid green;
-  order:0;
-}
-
-.hard-skills{
-  order:1;
-  width: 45vw;
-}
-
 </style>
