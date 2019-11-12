@@ -4,13 +4,13 @@
       <div class="logo-container" >
         <i class="snes-jp-logo" @click="toggleMenu()"></i>
       </div>
-      <div :class="{hidden: isHidden}" class="dropdown-content" >
-        <router-link class="link" to="/">Inicio </router-link>|
-        <router-link class="link" to="/about">Sobre mí</router-link>|
-        <router-link class="link" to="/skills">Habilidades</router-link>|
-        <router-link class="link" to="/proyectos">Proyectos</router-link>|
-        <router-link class="link" to="/contacto">Contacto</router-link> 
-      </div>
+        <ul :class="{hidden: isHidden}" class="dropdown-content" >
+          <li><router-link class="link" to="/">Inicio </router-link></li>
+          <li><router-link class="link" to="/about">Sobre mí</router-link></li>
+          <li><router-link class="link" to="/skills">Habilidades</router-link></li>
+          <li><router-link class="link" to="/proyectos">Proyectos</router-link></li>
+          <li><router-link class="link" to="/contacto">Contacto</router-link></li>
+        </ul>
     </div>
     <router-view class="vistas" />
   </div>
@@ -119,13 +119,19 @@
 
 .dropdown-content{
     order:2;
-    width: 30%;
+    width: 80%;
     top:5rem;
     border:5px solid coral;
-    margin-left: 2.5rem;
+    /* margin-left: 2.5rem; */
+    margin:0 auto;
     /* width:100%; */
+    
 }
 
+ul li{
+  margin:2rem 0;
+  list-style-type: none;
+}
 /* .nes-container > :last-child{
   margin-left: 2.5rem;
 } */
