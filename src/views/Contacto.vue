@@ -1,7 +1,7 @@
 <template>
   <div class="contacto">
     <div class="dato"><a href="https://github.com/MarielaTorresB" target="_blank"><i class="nes-icon github is-medium"></i>Mariela Torres</a></div>
-    <div class="dato"><i class="nes-icon gmail is-medium"></i><p> marielatorres<br>@protonmail.com</p></div>
+    <div class="dato"><i class="nes-icon gmail is-medium"></i><div><p> marielatorres<br>@protonmail.com</p></div></div>
     <div class="dato"><a href="https://www.linkedin.com/in/marielatorresb/" target="_blank"><i class="nes-icon linkedin is-medium"></i>Mariela Torres</a></div>
   </div>
 </template>
@@ -17,9 +17,11 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   font-size: 0.7rem;
   margin: 0.5rem;
   padding: 0.5rem;
+  border: 0px dotted blue;
 }
 
 .dato {
@@ -28,6 +30,8 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin: 2rem 1rem;
+  border: 0px dotted yellow;
+  width:80%;
 }
 
 .dato a {
@@ -36,8 +40,25 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
+.dato div {
+  /* background-color: blueviolet; */
+  padding-top: 1rem;
+}
+
+@media screen and (min-width:500px) {
+  .dato{
+    width:50%;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .dato{
+    width:33%;
+  }
+}
 </style>
 

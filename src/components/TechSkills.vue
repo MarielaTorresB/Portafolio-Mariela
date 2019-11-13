@@ -1,5 +1,5 @@
 <template>
-  <div class="nes-container is-dark with-title is-centered">
+  <div class="nes-container is-dark with-title is-centered tech-skills">
     <p class="title">Habilidades</p>
     <div class="skills-container">
       <div class="skill">
@@ -71,6 +71,28 @@ export default {
 }
 
 .skill{
-  /* border: 5px dotted pink; */
+   border: 0px dotted pink; 
 }
+
+
+@media screen and (min-width:550px) {
+.skills-container{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin:0;
+  /* text-align: end; */
+}
+
+.skill{
+  width:45%;
+}
+}
+
+@media screen and (min-width: 900px) {
+  .skill{
+    width: 30%;
+  }
+}
+
 </style>

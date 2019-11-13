@@ -1,5 +1,5 @@
 <template>
-  <div class="nes-container is-dark with-title is-centered">
+  <div class="nes-container is-dark with-title is-centered soft-skills">
     <p class="title">Soft Skills</p>
     <div class="badge-container">
       <div class="badge red">
@@ -28,7 +28,6 @@
 </template>
 
 <style scoped>
-
 .badge-container {
   display: flex;
   flex-flow: row wrap;
@@ -87,6 +86,13 @@
 
 .orange{
   background-color: #fd8014;
+}
+
+@media screen and (min-width:900px) {
+  .soft-skills {
+    width: 50%;
+    justify-self: flex-end;
+  }
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" src="../assets/rompc.png">
     <HelloWorld msg="Mariela Torres"/>
   </div>
 </template>
@@ -16,3 +16,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+img{
+  width: 50vw;
+}
+</style>
