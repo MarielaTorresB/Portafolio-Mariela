@@ -1,7 +1,7 @@
 <template>
   <div class="yo nes-container with-title is-centered is-dark">
     <p class="title">Sobre mí</p>
-    <p> Blablabla...etc</p>
+    <p>Front-End Developer Jr. mexicana. Mi gran curiosidad es mi motor. Me entusiasma aprender cosas nuevas y a partir de ello construir soluciones para cualquier problema. Disfruto enormemente la posibilidad de crear y modificar cosas a través del conocimiento y el ingenio</p>
   </div>
 </template>
 

@@ -1,8 +1,10 @@
 <template>
   <div class="about">
-    <Bubble></Bubble>
-    <Avatar class="avatar"></Avatar>
-    <YoComp></YoComp>
+    <div class="greeting">
+      <Bubble></Bubble>
+      <Avatar class="avatar"></Avatar>
+    </div>
+    <YoComp class="myAbout"></YoComp>
   </div>
 </template>
 
@@ -25,7 +27,25 @@ export default {
 .about{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
+.avatar{
+  width: 35vw;
+}
+
+.myAbout{
+  width: 90%;
+}
+
+@media screen and (min-width:1000px) {
+  .about{
+    flex-direction: row;
+  }
+
+  .myAbout{
+    width: 50vw;
+  }
+}
 
 </style>

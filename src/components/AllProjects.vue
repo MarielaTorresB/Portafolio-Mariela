@@ -59,6 +59,23 @@ export default {
 
 .nes-container.is-rounded{
   margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 800px){
+  .project-container{
+    flex-flow: row wrap;
+  }
+
+  .card{
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width:1700px){
+  .card{
+    width: 30vw;
+  }
 }
 
 </style>

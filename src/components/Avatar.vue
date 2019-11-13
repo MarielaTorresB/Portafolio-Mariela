@@ -12,11 +12,16 @@ export default {
 </script>
 
 <style scoped>
-.minime{
+/* .minime{
   width: 30%;
   height: auto;
-}  
+}   */
+/* .minime{
+  width:100%;
+} */
 
-
+img{
+  width: 100%;
+}
 
 </style>
