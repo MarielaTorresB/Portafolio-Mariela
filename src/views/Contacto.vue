@@ -3,6 +3,7 @@
     <div class="dato"><a href="https://github.com/MarielaTorresB" target="_blank"><i class="nes-icon github is-medium"></i>Mariela Torres</a></div>
     <div class="dato"><i class="nes-icon gmail is-medium"></i><div><p> marielatorres<br>@protonmail.com</p></div></div>
     <div class="dato"><a href="https://www.linkedin.com/in/marielatorresb/" target="_blank"><i class="nes-icon linkedin is-medium"></i>Mariela Torres</a></div>
+    <div class="dato"><a class="cv" download="CV Mariela Torres" href="https://drive.google.com/uc?export=download&id=1NIHHQFQ_De5K5h3209khDnt7ozi9nsHP">Descargar CV</a></div>
   </div>
 </template>
 
@@ -47,6 +48,10 @@ export default {
 .dato div {
   /* background-color: blueviolet; */
   padding-top: 1rem;
+}
+
+a.cv{
+  justify-content: center;
 }
 
 @media screen and (min-width:500px) {
